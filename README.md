@@ -29,6 +29,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+(.forEach) does not edit the array but just loops through it. Also it only returns undefined when its done. Contrary, ().map) goes through each element and makes a change to each one of them. It returns an array after its completed.
 
 2. What is the difference between a function and a method?
 
