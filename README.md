@@ -29,15 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+(.forEach) does not edit the array but just loops through it. Also it only returns undefined when its done. Contrary, ().map) goes through each element and makes a change to each one of them. It returns an array after its completed.
 
 2. What is the difference between a function and a method?
-
+A function and method are extremly similar in  that they run a set of instructions that were given to them. The big difference is that a method is a function that is inside an object. Also methods use implicit binding when it comes to the this keyword instead of Window/Global binding.
 3. What is closure?
-
+when one person wrongs you and you need to fix it emotionally however you still intend to "Yeet" their contact info into the trash. For Java Script though, Closures have access to variables outside of its scope even when it does not have the variable itself. Usually closures are used when a function returns another function.
 4. Describe the four rules of the 'this' keyword.
-
+Window/Global Object binding: when the this keyword points to the window object which stores methods and variables. 
+Implicit binding:is when the this keyword is used inside an object.
+ New binding: is used with a constructor function then making a new instance of that constructor. 
+  Explicit binding: is used for overriding the context of the this keyword.
 5. Why do we need super() in an extended class?
-
+super() points to the extended class and the attributes of the current class that is extending can make changes to the values of the extended class?
 ## Project Set up
 
 Follow these steps to set up and work on your project:
