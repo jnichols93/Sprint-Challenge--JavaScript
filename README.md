@@ -41,7 +41,7 @@ Implicit binding:is when the this keyword is used inside an object.
  New binding: is used with a constructor function then making a new instance of that constructor. 
   Explicit binding: is used for overriding the context of the this keyword.
 5. Why do we need super() in an extended class?
-
+super() points to the extended class and the attributes of the current class that is extending can make changes to the values of the extended class?
 ## Project Set up
 
 Follow these steps to set up and work on your project:
