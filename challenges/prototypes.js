@@ -48,3 +48,4 @@
  //console.log(cuboid.surfaceArea()); // 130
 
 
+/// Had to coment out this page for code on classes.js to work
